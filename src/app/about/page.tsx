@@ -38,6 +38,7 @@
 //         </div>
 //     );
 // }
+"use client";
 import React from "react";
 import { Download } from "lucide-react";
 import Image from 'next/image';
