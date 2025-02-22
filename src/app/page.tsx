@@ -19,13 +19,13 @@ export default function HomePage() {
      
       {/* Main Content */}
       <main className="pt-[100px]"> 
-      <div className="px-20 pt-15 flex justify-center items-center space-x-20 ">
-      <h1 className="text-5xl font-bold leading-tight animated-text max-w-3xl text-center ">
-                <span className="text-purple-500">WELCOME</span>
-                <span className=""> TO MY PORTFOLIO</span>
-              </h1>\
-        </div> 
-     
+      <div className="px-4 sm:px-10 md:px-20 pt-10 sm:pt-12 md:pt-15 flex flex-col md:flex-row justify-center items-center gap-6 md:gap-16 lg:gap-20 text-center">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animated-text max-w-3xl">
+    <span className="text-purple-500">WELCOME</span>
+    <span> TO MY PORTFOLIO</span>
+  </h1>
+</div>
+
 
         {/* About Section */}
         <section id="about" className="py-10 px-10 ">
