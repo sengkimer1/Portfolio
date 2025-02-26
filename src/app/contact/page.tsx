@@ -37,7 +37,10 @@ export default function Contact() {
                     </div>
 
                     {/* Contact Form Section */}
-                    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg shadow-purple-700 space-y-6 w-full">
+                    <form
+    onSubmit={handleSubmit}
+    className="bg-white p-5 sm:p-5 md:p-8 rounded-lg shadow-lg shadow-purple-700 space-y-3 w-full"
+>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                             <div>
                                 <label htmlFor="name" className="block text-gray-700">Name:</label>

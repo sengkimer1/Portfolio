@@ -48,7 +48,7 @@ import kimer from 'src/images/kimer.png';
 const DownloadCV = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "https://docs.google.com/document/d/12Qmjz420SVnXL2D-6MC-h4cTJXgLn-K6ggxEsVPu4ow/edit?usp=drive_link"; // Update with the correct CV file path
+    link.href = "https://drive.google.com/file/d/1ZnwplTWk7QIAEbkd-y2kuoOdAfDgxZ3q/view?usp=drive_link"; // Update with the correct CV file path
     link.download = "Sengkimer.pdf";
     document.body.appendChild(link);
     link.click();
