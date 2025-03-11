@@ -5,6 +5,8 @@ import p2 from 'src/images/p2.png';
 import p3 from 'src/images/p3.png';
 import p4 from 'src/images/p4.png';
 import p5 from 'src/images/p5.png';
+import p6 from 'src/images/wast.png';
+import p7 from 'src/images/ai.png';
 
 export default function Project() {
   return (
@@ -52,6 +54,21 @@ export default function Project() {
               Read our blog for simple tips, bike guides, and the latest news.
               Learn how to take care of your bike and find the best ones to buy!
             </p>
+          </Link>
+          <Link href="" className="bg-white p-6 rounded-2xl shadow-2xl hover:shadow-purple-500 transition duration-300 block">
+            <Image src={p6} alt="Selling Bicycle" width={300} height={200} className="w-full h-48 object-cover rounded-xl mb-4" />
+            <h3 className="text-2xl font-semibold text-gray-800 mb-2">Develop Waste-to-Wealth Collector App</h3>
+            <p className="text-gray-600">You're building the "Waste-to-Wealth Collector" app from scratch to make waste collection easy and cashless. The project will be completed in 3 weeks once Sam gives the green light.</p>
+            <span className="inline-flex items-center rounded-md bg-red-100 px-2 py-1 text-xs font-medium text-red-600 ring-1 ring-gray-500/10 ring-inset">Flutter</span>
+          </Link>
+
+          <Link href="" className="bg-white p-6 rounded-2xl shadow-2xl hover:shadow-purple-500 transition duration-300 block">
+            <Image src={p7} alt="Minimal Blog" width={300} height={200} className="w-full h-48 object-cover rounded-xl mb-4" />
+            <h3 className="text-2xl font-semibold text-gray-800 mb-2">Develop Interactive AI-Powered Learning Roadmap</h3>
+            <p className="text-gray-600">You're building the Skill AI Roadmap for Skillify to generate personalized learning paths using Ollama AI. Users input goals, and the system creates step-by-step milestones with resources. The prototype is ready, and the team has 1 week to develop and launch it.</p>
+            <span className="inline-flex items-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700 ring-1 ring-blue-700/10 ring-inset mr-5">TypeORM</span>
+            <span className="inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-green-600/20 ring-inset"> Express + Typescript</span>
+            
           </Link>
 
 
